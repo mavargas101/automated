@@ -20,7 +20,7 @@ def login (username, password):
 #open qualio and login
 print('Logging In...')
 driver.get("https://app.qualio.com/login")
-login('miguel.vargas@proscia.com','gokhut-fofqIp-zarni5')
+login('miguel.vargas@proscia.com','PASSWORDGOESHERE')
 print('Logged in!')
 
 #open the library
