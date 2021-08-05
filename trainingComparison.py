@@ -83,9 +83,7 @@ while forwardBtn.is_enabled():
     time.sleep(1)
 
 driver.find_element_by_xpath('/html/body/span/div/div/div[2]/div/whitebox/div/div/div/employee-training-dashboard-list/div/div[2]/div/div/div/div/div/div/table/thead/tr/th[1]').click()
-
 trainingsDone = []
-
 forwardBtn = driver.find_element_by_xpath('//*[@id="ng-app"]/body/span/div/div/div[2]/div/whitebox/div/div/div/employee-training-dashboard-list/div/div[3]/div/div/div/button[2]')
 
 print('Recording assigned and completed trainings')
